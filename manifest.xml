@@ -11,7 +11,7 @@
   <Description DefaultValue="SAV IMA"/>
   <IconUrl DefaultValue="https://ziadima.github.io/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://ziadima.github.io/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://learn.microsoft.com/office/dev/add-ins/overview/office-add-in-code-samples"/>
+  <SupportUrl DefaultValue="https://ziadima.github.io"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
