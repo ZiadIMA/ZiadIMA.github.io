@@ -83,7 +83,7 @@
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Git the gist"/>
-        <bt:String id="SAVIMAButton.Label" DefaultValue="SAV IMA" />
+        <bt:String id="SAVIMAButton.Label" DefaultValue="SAV IMA 2" />
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="SAVIMAButton.Tooltip" DefaultValue="Click to open SAV IMA task pane" />
