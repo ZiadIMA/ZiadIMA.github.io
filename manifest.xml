@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://ziadima.github.io/src/taskpane/taskpane.html"/>
+        <SourceLocation DefaultValue="https://ziadima.github.io/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -75,8 +75,8 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://ziadima.github.io/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://ziadima.github.io/src/commands/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://ziadima.github.io/src/taskpane/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://ziadima.github.io/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://ziadima.github.io/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GroupLabel" DefaultValue="Git the gist"/>
