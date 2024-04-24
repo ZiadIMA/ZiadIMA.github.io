@@ -8,7 +8,7 @@
   <Description DefaultValue="A template to get started 1111"/>
   <IconUrl DefaultValue="https://ziadima.github.io/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://ziadima.github.io/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://ziadima.github.io"/>
   <AppDomains>
     <AppDomain>https://www.contoso.com</AppDomain>
   </AppDomains>
