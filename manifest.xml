@@ -7,7 +7,7 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="Ziad"/>
+  <DisplayName DefaultValue="Customer Services IMA"/>
   <Description DefaultValue="A template to get started 22222"/>
   <IconUrl DefaultValue="https://ziadima.github.io/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://ziadima.github.io/assets/icon-128.png"/>
@@ -80,11 +80,11 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://ziadima.github.io/taskpane/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GroupLabel" DefaultValue="Git the gist2"/>
+        <bt:String id="GroupLabel" DefaultValue="Modification titre"/>
         <bt:String id="SAVIMAButton.Label" DefaultValue="SAV IMA" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="SAVIMAButton.Tooltip" DefaultValue="Click to open SAV IMA 2 task panee" />
+        <bt:String id="SAVIMAButton.Tooltip" DefaultValue="Cliquez pour ouvrir l'add-in" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>

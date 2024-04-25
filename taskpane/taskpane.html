@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contoso Task Pane Add-in</title>
+    <title>Add-in for Customer Services</title>
 
     <!-- Office JavaScript API -->
     <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
@@ -18,17 +18,17 @@
 <body class="ms-font-m ms-welcome ms-Fabric">
     <main id="app-body" class="ms-welcome__main">
         <div class="input-group">
-            <label for="lineName">Line Name:</label> <!-- Label for line name -->
-            <input type="text" id="lineName" placeholder="Enter line name"> <!-- Input field for line name -->
+            <label for="lineName">Nom de la Ligne:</label> <!-- Label for line name -->
+            <input type="text" id="lineName" placeholder="Entrez nom de la ligne"> <!-- Input field for line name -->
         </div>
 
         <div class="input-group">
-            <label for="machineName">Machine Name:</label> <!-- Label for machine name -->
-            <input type="text" id="machineName" placeholder="Enter machine name"> <!-- Input field for machine name -->
+            <label for="machineName">Nom de la Machine:</label> <!-- Label for machine name -->
+            <input type="text" id="machineName" placeholder="Entrez nom de la machine"> <!-- Input field for machine name -->
         </div>
 
         <div class="input-group">
-            <label for="urgencySelect">Select Urgency:</label> <!-- Label for urgency selection -->
+            <label for="urgencySelect">Choisir l'urgence:</label> <!-- Label for urgency selection -->
             <select id="urgencySelect"> <!-- Select element for urgency selection -->
                 <option value="1">Panne totale, entraînant l'arrêt de la production.</option>
                 <option value="2">Machine fonctionnant à une cadence réduite.</option>
@@ -38,7 +38,7 @@
             </select>
         </div>
 
-        <button id="addUrgencyBtn">Add Urgency</button> <!-- Button to add urgency -->
+        <button id="addUrgencyBtn">Appliquer</button> <!-- Button to add urgency -->
     </main>
 </body>
 </html>
