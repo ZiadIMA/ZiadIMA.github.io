@@ -1,26 +1,22 @@
-/* Utiliser Flexbox pour afficher les éléments en colonne */
-#app-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centrer les éléments horizontalement */
-}
-
-/* Styles pour input groups */
+/* Styles for input groups */
 .input-group {
     margin-bottom: 15px; /* Ajoute de l'espace entre les groupes d'éléments */
-    display: flex;
-    flex-direction: column; /* Afficher les éléments en colonne */
 }
 
 .input-group label {
     font-weight: bold; /* Rend les étiquettes en gras */
-    margin-bottom: 5px; /* Espacement entre le label et le select */
 }
 
+/* Styles pour les champs de saisie et les sélecteurs */
 .input-group input,
 .input-group select {
+    width: calc(100% - 20px); /* Définit la largeur des champs de saisie à 100% moins un espace de 20px pour la marge */
     padding: 8px; /* Ajoute un peu de rembourrage aux champs de saisie */
+    margin-top: 5px; /* Ajoute de l'espace au-dessus des champs de saisie */
     box-sizing: border-box; /* Inclut la largeur du padding et de la bordure dans la largeur totale */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    margin-left: 40px; /* Ajoute de l'espace à gauche des champs de saisie */
+    margin-right: 40px; /* Ajoute de l'espace à droite des champs de saisie */
 }
 
 /* Styles spécifiques pour le bouton "Add Urgency" */
@@ -31,6 +27,10 @@
     border: none; /* Supprime la bordure */
     border-radius: 4px; /* Ajoute un peu de bord arrondi */
     cursor: pointer; /* Curseur de souris */
+    margin-top: 15px; /* Espacement au-dessus du bouton */
+    margin-left: auto; /* Centrage horizontal */
+    margin-right: auto; /* Centrage horizontal */
+    display: block; /* Affiche le bouton comme un bloc */
 }
 
 #addUrgencyBtn:hover {
