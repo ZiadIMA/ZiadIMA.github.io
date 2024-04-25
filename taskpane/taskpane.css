@@ -18,6 +18,8 @@
     overflow: hidden; /* Cache le contenu qui dépasse */
     margin-left: 10px; /* Ajoute de l'espace à gauche des champs de saisie */
     margin-right: 10px; /* Ajoute de l'espace à droite des champs de saisie */
+    display: block; /* Afficher les labels et les select en bloc (sur une ligne différente) */
+    margin-bottom: 5px; /* Espacement entre le label et le select */
 }
 
 /* Styles spécifiques pour le bouton "Add Urgency" */
