@@ -26,7 +26,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://ziadima.github.io/taskpane/taskpane.html"/>
+        <SourceLocation DefaultValue="https://ziadima.github.io/ndex.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
