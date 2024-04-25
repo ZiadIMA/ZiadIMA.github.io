@@ -84,7 +84,7 @@
         <bt:String id="SAVIMAButton.Label" DefaultValue="SAV IMA" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="SAVIMAButton.Tooltip" DefaultValue="Click to open SAV IMA 2 task pane" />
+        <bt:String id="SAVIMAButton.Tooltip" DefaultValue="Click to open SAV IMA 2 task panee" />
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
