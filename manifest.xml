@@ -80,7 +80,7 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://ziadima.github.io/index2.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GroupLabel" DefaultValue="Git the gist"/>
+        <bt:String id="GroupLabel" DefaultValue="Git the gist2"/>
         <bt:String id="SAVIMAButton.Label" DefaultValue="SAV IMA" />
       </bt:ShortStrings>
       <bt:LongStrings>
