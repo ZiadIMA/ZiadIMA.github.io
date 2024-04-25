@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
 </head>
 
 <body>
-    <h1>Hello, World!</h1>
+    <button id="addUrgencyBtn">Add Urgency</button>
+
+    <script>
+        Office.onReady((info) => {
+            if (info.host === Office.HostType.Outlook) {
+                document.getElementById("addUrgencyBtn").onclick = addUrgency;
+            }
+        });
+
+        function addUrgency() {
+            const item = Office.context.mailbox.item;
+            const select = document.getElementById("urgencySelect");
+            const urgencyValue = select.value;
+            const urgencyText = select.options[select.selectedIndex].text;
+
+            // Utiliser getAsync pour récupérer le sujet de l'élément
+            item.subject.getAsync((asyncResult) => {
+                if (asyncResult.status === Office.AsyncResultStatus.Failed) {
+                    write(asyncResult.error.message);
+                    return;
+                }
+
+                let subject = asyncResult.value;
+                const prefixRegex = /\[[^\]]+\]/; // Expression régulière pour trouver le préfixe existant
+
+                // Vérifier si le sujet contient déjà un préfixe
+                if (prefixRegex.test(subject)) {
+                    // Remplacer le préfixe existant par le nouveau
+                    subject = subject.replace(prefixRegex, `[${lineName}/${machineName}/@${urgencyValue}]`);
+                } else {
+                    // Ajouter le préfixe au début du sujet
+                    subject = `[${lineName}/${machineName}/@${urgencyValue}] - ${subject}`;
+                }
+
+                // Mettre à jour le sujet avec la nouvelle valeur
+                item.subject.setAsync(subject, { coercionType: Office.CoercionType.Text });
+            });
+        }
+    </script>
 </body>
 
 </html>
