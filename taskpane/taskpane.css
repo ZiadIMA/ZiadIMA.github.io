@@ -4,6 +4,7 @@
     flex-direction: column; /* Afficher les éléments en colonne */
     margin-bottom: 15px; /* Ajoute de l'espace entre les groupes d'éléments */
     max-width: 400px; /* Limite la largeur maximale des groupes d'entrée */
+    margin-left: 10px;
 }
 
 .input-group label {
