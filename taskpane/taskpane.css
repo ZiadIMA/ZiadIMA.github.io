@@ -7,9 +7,9 @@
 
 /* Styles pour input groups */
 .input-group {
-    margin-bottom: 15px; /* Ajoute de l'espace entre les groupes d'éléments */
     display: flex;
     flex-direction: column; /* Afficher les éléments en colonne */
+    margin-bottom: 15px; /* Ajoute de l'espace entre les groupes d'éléments */
 }
 
 .input-group label {
@@ -25,11 +25,11 @@
 
 /* Styles spécifiques pour le bouton "Add Urgency" */
 #addUrgencyBtn {
-    background-color: #0078d7; /* Couleur de fond */
-    color: white; /* Couleur du texte */
     padding: 10px 20px; /* Rembourrage */
     border: none; /* Supprime la bordure */
     border-radius: 4px; /* Ajoute un peu de bord arrondi */
+    background-color: #0078d7; /* Couleur de fond */
+    color: white; /* Couleur du texte */
     cursor: pointer; /* Curseur de souris */
 }
 
