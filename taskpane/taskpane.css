@@ -16,8 +16,8 @@
     margin-top: 5px; /* Ajoute de l'espace au-dessus des champs de saisie */
     box-sizing: border-box; /* Inclut la largeur du padding et de la bordure dans la largeur totale */
     overflow: hidden; /* Cache le contenu qui dépasse */
-    margin-left: 40px; /* Ajoute de l'espace à gauche des champs de saisie */
-    margin-right: 40px; /* Ajoute de l'espace à droite des champs de saisie */
+    margin-left: 10px; /* Ajoute de l'espace à gauche des champs de saisie */
+    margin-right: 10px; /* Ajoute de l'espace à droite des champs de saisie */
 }
 
 /* Styles spécifiques pour le bouton "Add Urgency" */
