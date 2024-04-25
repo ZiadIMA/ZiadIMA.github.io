@@ -8,7 +8,7 @@
   <ProviderName>Contoso</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Ziad"/>
-  <Description DefaultValue="SAV IMA2"/>
+  <Description DefaultValue="SAV IMA3"/>
   <IconUrl DefaultValue="https://ziadima.github.io/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://ziadima.github.io/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://ziadima.github.io"/>
