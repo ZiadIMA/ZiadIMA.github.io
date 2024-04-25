@@ -4,6 +4,8 @@
     flex-direction: column; /* Afficher les éléments en colonne */
     max-width: 400px; /* Limite la largeur maximale des groupes d'entrée */
     padding: 5px;
+    align-items: center; /* Centrer les éléments horizontalement */
+    min-width: 200px; /* Définir une largeur minimale pour éviter le rétrécissement excessif */
 }
 
 .input-group label {
