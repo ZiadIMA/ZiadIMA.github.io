@@ -6,18 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add-in for Customer Services</title>
 
-    <!-- Office JavaScript API -->
-    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
-
-    <!-- Fluent UI CSS -->
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css">
 
-    <!-- Custom CSS -->
-    <link href="taskpane.css" rel="stylesheet">
-
-    <!-- Custom JavaScript -->
-    <script src="taskpane.js"></script> <!-- Ajout de taskpane.js -->
-     
+</head>
 <body> 
     <div class="container">
       <div class="element element1">
@@ -27,7 +18,7 @@
         <input type="text" id="machineName" placeholder="Entrez nom de la machine">
       </div> 
       <div class="selectdiv">
-        <select>
+        <select id="urgencySelect">
           <option disabled selected> Entrez le degré d'urgence </option>
           <option value="1" class="red">@1 : Panne totale, entraînant l'arrêt de la production</option>
           <option value="2" class="orange">@2 : Machine fonctionnant à une cadence réduite</option>
@@ -36,6 +27,9 @@
           <option value="5" class="blue">@5 : Demande ou question générale</option>
         </select>
       </div>
-    <button id="button" class="button">Appliquer</button>
-    </body>        
-    </html>
+      <button id="button" class="button">Appliquer</button>
+    </div>
+
+    <script src="taskpane.js"></script>
+</body>        
+</html>

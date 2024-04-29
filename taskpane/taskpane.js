@@ -1,14 +1,12 @@
 Office.onReady((info) => {
   if (info.host === Office.HostType.Outlook) {
-      document.getElementById("app-body").style.display = "flex";
       document.getElementById("button").onclick = addUrgency;
   }
 });
 
-
 function addUrgency() {
   const item = Office.context.mailbox.item;
-  const select = document.getElementById("selectdiv");
+  const select = document.getElementById("urgencySelect"); // Correction de l'ID
   const urgencyValue = select.value;
   const urgencyText = select.options[select.selectedIndex].text;
   const machineName = document.getElementById("machineName").value; // Récupérer le nom de la machine
@@ -17,7 +15,7 @@ function addUrgency() {
   // Utiliser getAsync pour récupérer le sujet de l'élément
   item.subject.getAsync((asyncResult) => {
     if (asyncResult.status === Office.AsyncResultStatus.Failed) {
-      write(asyncResult.error.message);
+      console.error(asyncResult.error.message); // Utilisation de console.error au lieu de write
       return;
     }
 
