@@ -1,7 +1,7 @@
 Office.onReady((info) => {
   if (info.host === Office.HostType.Outlook) {
       document.getElementById("app-body").style.display = "flex";
-      document.getElementById("addUrgencyBtn").onclick = addUrgency;
+      document.getElementById("button").onclick = addUrgency;
   }
 });
 

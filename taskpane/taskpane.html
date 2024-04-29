@@ -13,36 +13,31 @@
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css">
 
     <!-- Custom CSS -->
-    <!-- <link href="taskpane.css" rel="stylesheet"> -->
+    <link href="taskpane.css" rel="stylesheet">
 
     <!-- Custom JavaScript -->
     <script src="taskpane.js"></script> <!-- Ajout de taskpane.js -->
-    
-</head>
-<body class="ms-font-m ms-welcome ms-Fabric">
-    <main id="app-body" class="ms-welcome__main">
-        <div class="input-group">
-            <label for="lineName">Nom de la Ligne:</label> <!-- Label for line name -->
-            <input type="text" id="lineName" placeholder="Entrez nom de la ligne"> <!-- Input field for line name -->
-        </div>
-
-        <div class="input-group">
-            <label for="machineName">Nom de la Machine:</label> <!-- Label for machine name -->
-            <input type="text" id="machineName" placeholder="Entrez nom de la machine"> <!-- Input field for machine name -->
-        </div>
-
-        <div class="input-group">
-            <label for="urgencySelect">Choisir l'urgence:</label> <!-- Label for urgency selection -->
-            <select id="urgencySelect"> <!-- Select element for urgency selection -->
-                <option value="1">Panne totale, entraînant l'arrêt de la production.</option>
-                <option value="2">Machine fonctionnant à une cadence réduite.</option>
-                <option value="3">Problème n'impactant ni la production ni la cadence.</option>
-                <option value="4">Demande de pièce de rechange.</option>
-                <option value="5">Demande ou question générale.</option>
-            </select>
-        </div>
-
-        <button id="addUrgencyBtn">Appliquer</button> <!-- Button to add urgency -->
-    </main>
-</body>
-</html>
+     
+<body> 
+    <div class="container">
+    <div class="container">
+      <div class="element element1">
+        <input type="text" id="lineName" placeholder="Entrez nom de la ligne">
+      </div> 
+      <div class="element element2">
+        <input type="text" id="machineName" placeholder="Entrez nom de la machine">
+      </div> 
+      <div class="selectdiv">
+        <select>
+          <option selected> Entrez le degré d'urgence </option>
+          <option value="1" class="red">Panne totale, entraînant l'arrêt de la production</option>
+          <option value="2" class="orange">Machine fonctionnant à une cadence réduite</option>
+          <option value="3" class="yellow">Problème n'impactant ni la production ni la cadence</option>
+          <option value="4" class="green">Demande de pièce de rechange</option>
+          <option value="5" class="blue">Demande ou question générale</option>
+        </select>
+      </div>
+    </div>
+    <button id="button" class="button">Appliquer</button>
+    </body>        
+    </html>
