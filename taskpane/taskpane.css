@@ -11,7 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100px; /* Taille de l'image, ajustez selon vos besoins */
+  width: 2500px; /* Taille de l'image, ajustez selon vos besoins */
   height: auto; /* Garde le ratio de l'image */
   margin: 20px; /* Espace autour de l'image */
 }
