@@ -8,7 +8,7 @@ Office.onReady((info) => {
 
 function addUrgency() {
   const item = Office.context.mailbox.item;
-  const select = document.getElementById("urgencySelect");
+  const select = document.getElementById("selectdiv");
   const urgencyValue = select.value;
   const urgencyText = select.options[select.selectedIndex].text;
   const machineName = document.getElementById("machineName").value; // Récupérer le nom de la machine
