@@ -14,6 +14,9 @@
     background-color: #f0faff;
   }
   
+  option:first {
+    color: #999;
+}
   .container {
     width: 100%;
     max-width: 500px; /* Vous pouvez ajuster la largeur maximale selon vos besoins */
